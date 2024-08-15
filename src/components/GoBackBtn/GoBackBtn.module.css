@@ -1,0 +1,10 @@
+.link {
+  background: #ababab;
+  padding: 12px;
+  margin-left: 24px;
+  border-radius: 8px;
+  &&:hover {
+    background: #575757;
+    color: #f3ecfc;
+  }
+}

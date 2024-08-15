@@ -1,0 +1,39 @@
+.cont {
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+}
+.info {
+  max-width: 600px;
+  color: #f3ecfc;
+}
+.btn {
+  display: flex;
+  margin: 0 auto;
+  padding: 40px;
+  justify-content: center;
+  gap: 40px;
+}
+.btn ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  list-style-type: none;
+}
+.btn .link {
+  border: 1px solid #878787;
+  padding: 12px;
+  border-radius: 8px;
+  min-width: 120px;
+  text-align: center;
+  color: #f3ecfc;
+  &&:hover {
+    background: #575757;
+    color: #f3ecfc;
+  }
+}
+.active {
+  background: #c5c5c5;
+}

@@ -1,0 +1,10 @@
+.nav {
+  width: 100vw;
+  display: flex;
+  background: #ababab;
+  color: #f3ecfc;
+  justify-content: center;
+  gap: 40px;
+  padding: 24px;
+  font-size: 1.8em;
+}
